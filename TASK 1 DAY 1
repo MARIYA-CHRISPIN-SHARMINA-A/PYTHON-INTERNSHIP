@@ -1,0 +1,3 @@
+text="digital electronics"
+x=text.casefold()
+print(x[1:])
