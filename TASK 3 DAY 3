@@ -1,0 +1,35 @@
+exercise#3.1
+
+dic_1={"loyola":"chennai","xavier":"tirunelveli"}
+dic_2={"engineering":"arts","medical":"business"}
+dic_1.update(dic_2)
+print(dic_1)
+
+
+exercise#3.2
+
+dic ={"loyola":"chennai","xavier":"tirunelveli"}
+del dic["xavier"]
+print(dic)
+
+
+exercise#3.3
+
+keys= ["Name","Age"]
+values= ["shama", 15]
+z = dict(zip(keys, values))
+print(z)
+
+
+exercise#3.4
+
+set = len({"shama","hari","soori","agiee","sm","gemma","teresa","suru","gp","oviya"})   
+print("length =",set)
+
+
+exercise#3.5
+
+set_1= {1,2,3,4,5,6,7,8,9,10}
+set_2= {1,3,5,7,9}
+x=set_1-set_2
+print(x)
