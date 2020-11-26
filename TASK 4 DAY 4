@@ -1,0 +1,29 @@
+exercise#4.1
+
+X=int(input("Enter the list: "))
+LIST=list(range(0,X))
+print(LIST)
+LIST.append(4)
+print("appended List :",LIST)
+LIST.remove(5)
+print("The List after deleted value:",LIST)
+A=max(LIST)
+print("The maximum value in the list :",A)
+B=min(LIST)
+print("The minimum value in the list :",B)
+
+
+
+exercise#4.1
+
+TUP = (8,4,"HI",5)
+REVTUP = reversed(TUP)
+print(tuple(REVTUP))
+
+
+
+exercise#4.1
+
+TUP = (1,5,3,8)
+LIST_TUP = list(TUP)
+print(LIST_TUP)
