@@ -14,7 +14,7 @@ print("The minimum value in the list :",B)
 
 
 
-exercise#4.1
+exercise#4.2
 
 TUP = (8,4,"HI",5)
 REVTUP = reversed(TUP)
@@ -22,7 +22,7 @@ print(tuple(REVTUP))
 
 
 
-exercise#4.1
+exercise#4.3
 
 TUP = (1,5,3,8)
 LIST_TUP = list(TUP)
