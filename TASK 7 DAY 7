@@ -1,0 +1,36 @@
+exercise#7.1
+
+def xmodule(X):
+    a=[7,4,3]
+    b=a+X
+    print(b)
+    return
+import xmodule
+module.xmodule([4,5])
+
+
+
+exercise#7.2
+
+Pandas package installed using pip install pandas in cmd prompt
+
+
+
+exercise#7.3
+
+import random
+A=int(input("Enter the number of random number:"))
+for x in range(A): print(random.randint(0,100))
+
+
+    
+exercise#7.4
+
+import sys
+print (sys.path)
+
+
+
+exercise#7.5
+
+Installed and Uninstalled a package using pip
