@@ -1,0 +1,39 @@
+exercise#11.1
+
+X = ["hello","shama","Man"]
+Y = [3,6,65]
+re =list(zip(X,Y))
+print(re)
+
+
+
+exercise#11.2
+
+r= list (range(1,8))
+L=["xiaoqi","fang","lie","lang","chai","asst","alien"]
+A=list(zip(r,L))
+print(A)
+
+
+
+exercise#11.3
+
+X = ["hello","shama","Man"]
+Y = [3,6,65]
+A=sorted(list(zip(X,Y)))
+print(A)
+
+
+
+exercise#11.4
+
+n=[56,23,98,68,12,47,90,65,70,33,26,38,69,87]
+def even_numbers(num):
+    if(num%2 == 0):
+        return True
+    else:
+        return False
+evenNumbers = filter(even_numbers, n)
+print('Even Numbers are:')
+for num in evenNumbers:
+    print(num)
