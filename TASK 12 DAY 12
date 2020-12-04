@@ -1,0 +1,13 @@
+exercise#12
+
+import json
+print(json.dumps({"loyola":"AU","ECE":"nirmala","chennai":"marina"})) #dict
+print(json.dumps(["tokyo","ivar","rio"]))                             #list
+print(json.dumps(("xioaqi","puravi","fanglang")))                     #tuple
+print(json.dumps("hello"))                                            #str
+print(json.dumps(27))                                                 #int
+print(json.dumps(8.0))                                                #float
+print(json.dumps(True))                                               #True
+print(json.dumps(False))                                              #False
+print(json.dumps(None))                                               #None
+
